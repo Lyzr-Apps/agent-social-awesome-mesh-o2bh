@@ -8,6 +8,7 @@
     { "id": "performance_analyst", "type": "Agent", "label": "Performance Analyst Agent", "nodeCategory": "agent" },
     { "id": "report_delivery", "type": "Agent", "label": "Report Delivery Agent", "nodeCategory": "agent" },
     { "id": "twitter_publisher", "type": "Agent", "label": "Twitter Publisher Agent", "nodeCategory": "agent" },
+    { "id": "whatsapp_bot", "type": "Agent", "label": "WhatsApp Bot Agent", "nodeCategory": "agent" },
     { "id": "output_node", "type": "Output", "label": "Results", "nodeCategory": "end" }
   ],
   "edges": [
@@ -18,11 +19,13 @@
     { "source": "input_node", "target": "performance_analyst" },
     { "source": "performance_analyst", "target": "report_delivery" },
     { "source": "input_node", "target": "twitter_publisher" },
+    { "source": "input_node", "target": "whatsapp_bot" },
     { "source": "trend_research", "target": "output_node" },
     { "source": "content_writer", "target": "output_node" },
     { "source": "calendar_scheduler", "target": "output_node" },
     { "source": "report_delivery", "target": "output_node" },
-    { "source": "twitter_publisher", "target": "output_node" }
+    { "source": "twitter_publisher", "target": "output_node" },
+    { "source": "whatsapp_bot", "target": "output_node" }
   ],
   "agents": {
     "trend_research": {
@@ -85,6 +88,14 @@
       "model": "gpt-4.1",
       "temperature": 0.3,
       "tools": ["TWITTER_CREATION_OF_A_POST", "TWITTER_USER_LOOKUP_ME"]
+    },
+    "whatsapp_bot": {
+      "id": "6998c450344803d1bba89491",
+      "name": "WhatsApp Bot Agent",
+      "provider": "openai",
+      "model": "gpt-4.1",
+      "temperature": 0.8,
+      "tools": []
     }
   }
 }

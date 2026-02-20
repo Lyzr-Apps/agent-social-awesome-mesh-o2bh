@@ -1,0 +1,38 @@
+{
+  "agent_name": "WhatsApp Bot Agent",
+  "agent_id": "6998c450344803d1bba89491",
+  "description": "A conversational WhatsApp-style chatbot that communicates in pure human style \u2014 casual, friendly, and natural. It provides social media insights, campaign details, performance data, and scheduling information in a conversational tone as if chatting with a knowledgeable colleague on WhatsApp.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "message": "string",
+    "suggestions": [
+      "string"
+    ],
+    "data_highlights": [
+      {
+        "label": "string",
+        "value": "string"
+      }
+    ],
+    "follow_up_questions": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "message": "sample string",
+    "suggestions": [
+      "sample string"
+    ],
+    "data_highlights": [
+      {
+        "label": "sample string",
+        "value": "sample string"
+      }
+    ],
+    "follow_up_questions": [
+      "sample string"
+    ]
+  }
+}
