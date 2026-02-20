@@ -1,0 +1,37 @@
+{
+  "agent_name": "Content Writer Agent",
+  "agent_id": "6998c056a84911a83d1ac1ac",
+  "description": "Generates platform-optimized post drafts with captions, hashtags, and CTAs tailored to each platform's format and audience",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "posts": [
+      {
+        "platform": "string",
+        "date": "string",
+        "time": "string",
+        "caption": "string",
+        "hashtags": ["string"],
+        "cta": "string",
+        "content_format": "string"
+      }
+    ],
+    "content_strategy_notes": "string"
+  },
+  "example_response": {
+    "posts": [
+      {
+        "platform": "sample string",
+        "date": "sample string",
+        "time": "sample string",
+        "caption": "sample string",
+        "hashtags": ["sample string"],
+        "cta": "sample string",
+        "content_format": "sample string"
+      }
+    ],
+    "content_strategy_notes": "sample string"
+  },
+  "schema_file": "response_schemas/content_writer_agent_response.json"
+}

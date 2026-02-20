@@ -1,0 +1,66 @@
+{
+  "agent_name": "Performance Analyst Agent",
+  "agent_id": "6998c0a7e5ae4890f6e2bf07",
+  "description": "Analyzes user-provided engagement metrics and generates visual performance summaries with actionable recommendations",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "summary": "string",
+    "top_platform": "string",
+    "overall_engagement_rate": "string",
+    "platform_metrics": [
+      {
+        "platform": "string",
+        "likes": "string",
+        "shares": "string",
+        "reach": "string",
+        "impressions": "string",
+        "engagement_rate": "string",
+        "trend": "string"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": "string",
+        "action": "string",
+        "expected_impact": "string"
+      }
+    ],
+    "growth_trend": "string",
+    "best_content_type": "string"
+  },
+  "example_response": {
+    "summary": "sample string",
+    "top_platform": "sample string",
+    "overall_engagement_rate": "sample string",
+    "platform_metrics": [
+      {
+        "platform": "sample string",
+        "likes": "sample string",
+        "shares": "sample string",
+        "reach": "sample string",
+        "impressions": "sample string",
+        "engagement_rate": "sample string",
+        "trend": "sample string"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": "sample string",
+        "action": "sample string",
+        "expected_impact": "sample string"
+      }
+    ],
+    "growth_trend": "sample string",
+    "best_content_type": "sample string"
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/image.png"
+      }
+    ]
+  }
+}

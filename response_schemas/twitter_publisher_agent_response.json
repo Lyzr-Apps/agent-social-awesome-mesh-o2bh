@@ -1,0 +1,28 @@
+{
+  "agent_name": "Twitter Publisher Agent",
+  "agent_id": "6998c0a81b41f953752f2325",
+  "description": "Publishes approved content directly to Twitter/X, handling character limits and hashtag formatting",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "publish_status": "string",
+    "tweet_content": "string",
+    "character_count": "string",
+    "tweet_url": "string",
+    "published_at": "string",
+    "hashtags_used": [
+      "string"
+    ]
+  },
+  "example_response": {
+    "publish_status": "sample string",
+    "tweet_content": "sample string",
+    "character_count": "sample string",
+    "tweet_url": "sample string",
+    "published_at": "sample string",
+    "hashtags_used": [
+      "sample string"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "agent_name": "Report Delivery Agent",
+  "agent_id": "6998c0a8344803d1bba89408",
+  "description": "Sends the reviewed performance report via Gmail to specified recipients with a formatted summary and key takeaways",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "delivery_status": "string",
+    "recipients": [
+      "string"
+    ],
+    "subject_line": "string",
+    "sent_at": "string",
+    "email_preview": "string"
+  },
+  "example_response": {
+    "delivery_status": "sample string",
+    "recipients": [
+      "sample string"
+    ],
+    "subject_line": "sample string",
+    "sent_at": "sample string",
+    "email_preview": "sample string"
+  }
+}

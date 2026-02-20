@@ -1,0 +1,92 @@
+{
+  "agent_name": "Content Calendar Coordinator",
+  "agent_id": "6998c08344e76e643b8ffc03",
+  "description": "Orchestrates trend research, content drafting, and calendar scheduling to produce a complete weekly content calendar with platform-specific posts and scheduled events",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "calendar_summary": "string",
+    "platform_trends": [
+      {
+        "platform": "string",
+        "trending_hashtags": [
+          "string"
+        ],
+        "content_formats": [
+          "string"
+        ],
+        "optimal_posting_times": "string",
+        "engagement_insights": "string"
+      }
+    ],
+    "posts": [
+      {
+        "platform": "string",
+        "date": "string",
+        "time": "string",
+        "caption": "string",
+        "hashtags": [
+          "string"
+        ],
+        "cta": "string",
+        "content_format": "string"
+      }
+    ],
+    "scheduled_events": [
+      {
+        "event_title": "string",
+        "platform": "string",
+        "date": "string",
+        "time": "string",
+        "status": "string",
+        "calendar_link": "string"
+      }
+    ],
+    "content_strategy_notes": "string",
+    "total_posts": "string",
+    "total_events_created": "string"
+  },
+  "example_response": {
+    "calendar_summary": "sample string",
+    "platform_trends": [
+      {
+        "platform": "sample string",
+        "trending_hashtags": [
+          "sample string"
+        ],
+        "content_formats": [
+          "sample string"
+        ],
+        "optimal_posting_times": "sample string",
+        "engagement_insights": "sample string"
+      }
+    ],
+    "posts": [
+      {
+        "platform": "sample string",
+        "date": "sample string",
+        "time": "sample string",
+        "caption": "sample string",
+        "hashtags": [
+          "sample string"
+        ],
+        "cta": "sample string",
+        "content_format": "sample string"
+      }
+    ],
+    "scheduled_events": [
+      {
+        "event_title": "sample string",
+        "platform": "sample string",
+        "date": "sample string",
+        "time": "sample string",
+        "status": "sample string",
+        "calendar_link": "sample string"
+      }
+    ],
+    "content_strategy_notes": "sample string",
+    "total_posts": "sample string",
+    "total_events_created": "sample string"
+  }
+}

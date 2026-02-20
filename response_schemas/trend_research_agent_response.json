@@ -1,0 +1,35 @@
+{
+  "agent_name": "Trend Research Agent",
+  "agent_id": "6998c0564657541456743b88",
+  "description": "Researches current trending topics, hashtags, and content themes across LinkedIn, Instagram, Twitter/X, Facebook, and TikTok using web search",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "platform_trends": [
+      {
+        "platform": "string",
+        "trending_hashtags": ["string"],
+        "content_formats": ["string"],
+        "optimal_posting_times": "string",
+        "engagement_insights": "string"
+      }
+    ],
+    "overall_theme_recommendations": "string",
+    "cross_platform_hashtags": ["string"]
+  },
+  "example_response": {
+    "platform_trends": [
+      {
+        "platform": "sample string",
+        "trending_hashtags": ["sample string"],
+        "content_formats": ["sample string"],
+        "optimal_posting_times": "sample string",
+        "engagement_insights": "sample string"
+      }
+    ],
+    "overall_theme_recommendations": "sample string",
+    "cross_platform_hashtags": ["sample string"]
+  },
+  "schema_file": "response_schemas/trend_research_agent_response.json"
+}

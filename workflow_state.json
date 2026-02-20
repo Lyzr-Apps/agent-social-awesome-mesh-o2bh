@@ -1,0 +1,11 @@
+{
+  "agents": {
+    "trend_research": "6998c0564657541456743b88",
+    "content_writer": "6998c056a84911a83d1ac1ac",
+    "calendar_scheduler": "6998c06ea84911a83d1ac1b0",
+    "calendar_coordinator": "6998c08344e76e643b8ffc03",
+    "performance_analyst": "6998c0a7e5ae4890f6e2bf07",
+    "report_delivery": "6998c0a8344803d1bba89408",
+    "twitter_publisher": "6998c0a81b41f953752f2325"
+  }
+}

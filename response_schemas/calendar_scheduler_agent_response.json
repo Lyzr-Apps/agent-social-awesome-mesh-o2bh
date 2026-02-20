@@ -1,0 +1,37 @@
+{
+  "agent_name": "Calendar Scheduler Agent",
+  "agent_id": "6998c06ea84911a83d1ac1b0",
+  "description": "Creates Google Calendar events for each scheduled post with platform, time, and content details",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "scheduled_events": [
+      {
+        "event_title": "string",
+        "platform": "string",
+        "date": "string",
+        "time": "string",
+        "status": "string",
+        "calendar_link": "string"
+      }
+    ],
+    "total_events_created": "string",
+    "scheduling_summary": "string"
+  },
+  "example_response": {
+    "scheduled_events": [
+      {
+        "event_title": "sample string",
+        "platform": "sample string",
+        "date": "sample string",
+        "time": "sample string",
+        "status": "sample string",
+        "calendar_link": "sample string"
+      }
+    ],
+    "total_events_created": "sample string",
+    "scheduling_summary": "sample string"
+  },
+  "schema_file": "response_schemas/calendar_scheduler_agent_response.json"
+}
